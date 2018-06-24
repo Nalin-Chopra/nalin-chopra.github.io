@@ -230,7 +230,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\r\n@import url(\"https://fonts.googleapis.com/css?family=Raleway\");\r\n\r\n\r\n.intro {\r\n  height: 100vh;\r\n  min-height: 800px;\r\n}\r\n\r\n\r\n.headerBox {\r\n  text-align: center;\r\n  position:relative;\r\n  vertical-align: middle;\r\n}\r\n\r\n\r\n.headerBox h1 {\r\n  font-family: \"Raleway\", \"sans-serif\";\r\n  font-size: 70px;\r\n  margin-bottom: 20px;\r\n  color: white;\r\n}\r\n\r\n\r\n.headerBox h2 {\r\n  margin-bottom:125px;\r\n  margin-top:125px;\r\n  font-family: \"Raleway\", \"sans-serif\";\r\n  color: white;\r\n  font-family: \"Raleway\", \"sans-serif\";\r\n  color: white;\r\n}\r\n\r\n\r\n.buttonBox {\r\n  margin-top: 80px;\r\n}\r\n\r\n\r\n.headerBox .bgd {\r\n  min-height: 400px;\r\n  top: 0;\r\n  left: 0;\r\n  bottom: 0;\r\n  right: 0;\r\n  z-index: -1;\r\n  position: absolute;\r\n  background: url(\"https://images.wallpaperscraft.ru/image/tokio_nochnoj_gorod_neboskreby_121628_1920x1080.jpg\") no-repeat center center fixed;\r\n  background-size: cover;\r\n  height: 100vh;\r\n  opacity: 1;\r\n  min-height: 800px;\r\n}\r\n\r\n\r\n.scroll {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n\r\n.scroll a {\r\n  padding-top: 20px;\r\n  color: white;\r\n}\r\n\r\n\r\n.scroll a span {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 50%;\r\n  width: 50px;\r\n  height: 50px;\r\n  margin-left: -25px;\r\n  border-left: 1px solid white;\r\n  border-bottom: 1px solid white;\r\n  -webkit-transform: rotate(-45deg);\r\n  transform: rotate(-45deg);\r\n  -webkit-animation: scrollerFunc 1.5s infinite;\r\n          animation: scrollerFunc 1.5s infinite;\r\n  box-sizing: border-box;\r\n}\r\n\r\n\r\n@-webkit-keyframes scrollerFunc {\r\n  0% {\r\n    -webkit-transform: rotate(-45deg) translate(0, 0);\r\n    opacity: 0;\r\n  }\r\n  50% {\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(-45deg) translate(-20px, 20px);\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n\r\n@keyframes scrollerFunc {\r\n  0% {\r\n    -webkit-transform: rotate(-45deg) translate(0, 0);\r\n            transform: rotate(-45deg) translate(0, 0);\r\n    opacity: 0;\r\n  }\r\n  50% {\r\n    opacity: 1;\r\n  }\r\n  100% {\r\n    -webkit-transform: rotate(-45deg) translate(-20px, 20px);\r\n            transform: rotate(-45deg) translate(-20px, 20px);\r\n    opacity: 0;\r\n  }\r\n}\r\n"
 
 /***/ }),
 
@@ -241,7 +241,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  home-page works!\n</p>\n"
+module.exports = "<main>\n  <div class=\"intro\">\n    <div class=\"headerBox\">\n      <img class=\"spacing\" style=\"margin-top:75px;\">\n      <h1> NALIN CHOPRA </h1>\n      <!-- <h2> insert stuff </h2> -->\n      <div class=\"buttonBox\">\n        <div class=\"scrollBox\" style=\"padding-top: 125px;\">\n          <div class=\"scroll\">\n            <a href=\"empty\" onclick=\"return false;\" id=\"scroller\"><span></span>Click to Scroll</a>\n          </div>\n        </div>\n      </div>\n      <img class=\"spacing\" style=\"margin-bottom:75px;\">\n      <div class=\"bgd\"></div>\n    </div>\n  </div>\n</main>\n"
 
 /***/ }),
 
@@ -356,7 +356,7 @@ var PersonalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "@import url('https://fonts.googleapis.com/css?family=Lato:700|Merriweather:300,300italic,700');\r\n@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);\r\n.infoGraphics .box p {\r\n  position: relative;\r\n  font-size: 16;\r\n}\r\n.infoGraphics .row {\r\n  border-bottom: 1px solid #e6e6e6;\r\n}\r\n.infoGraphics .text-box-left {\r\n  padding: 75px;\r\n  padding-right: 15px;\r\n  padding-top: 75px;\r\n  padding-bottom: 90px;\r\n}\r\n.infoGraphics .text-box-right {\r\n  padding: 75px;\r\n  padding-left: 15px;\r\n  padding-top: 75px;\r\n  padding-bottom: 90px;\r\n}\r\n.infoGraphics .text-box-left h3 {\r\n  text-align: left;\r\n  color: #2E6171;\r\n  font-size: 32px;\r\n}\r\n.infoGraphics .text-box-left p {\r\n  text-align: left;\r\n  font-size: 15px;\r\n}\r\n.infoGraphics .text-box-right p {\r\n  text-align: right;\r\n  font-size: 15px;\r\n}\r\n.infoGraphics .text-box-right h3 {\r\n  text-align: right;\r\n  color: #2E6171;\r\n  font-size: 32px;\r\n}\r\n.infoGraphics .space {\r\n  padding: 36px;\r\n}\r\n.infoGraphics .crop-right {\r\n  display: block;\r\n  margin: 0 auto;\r\n  text-align: center;\r\n  position: relative;\r\n  float: right;\r\n  height: 200px;\r\n  width: 350px;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n\r\n}\r\n.infoGraphics .crop-left {\r\n  display: block;\r\n  margin: 0 auto;\r\n  position: relative;\r\n  text-align: center;\r\n  float: left;\r\n  height: 200px;\r\n  width: 350px;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n}\r\n.infoGraphics .crop-right img, .infoGraphics .crop-left img {\r\n  height: 200px;\r\n  width: auto;\r\n}\r\n"
 
 /***/ }),
 

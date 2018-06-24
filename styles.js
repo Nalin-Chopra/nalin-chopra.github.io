@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "@import url(\"https://fonts.googleapis.com/css?family=Lato\");\r\n\r\n\r\n\r\n\r\n.navbar {\r\n   background-color: transparent;\r\n   background: transparent;\r\n   border-color: transparent;\r\n}\r\n\r\n\r\n\r\n\r\n.navbar-dark{\r\n  font-family: \"Lato\", \"sans-serif\";\r\n}\r\n\r\n\r\n\r\n\r\n.navbar-default {\r\n      background-color:transparent !important;\r\n      border-color:transparent;\r\n      background-image:none;\r\n      box-shadow:none;\r\n }\r\n\r\n\r\n\r\n\r\n.navbar.transparent.navbar-inverse .navbar-inner {\r\n  background: rgba(0,0,0,0.4);\r\n}\r\n"
 
 /***/ }),
 
